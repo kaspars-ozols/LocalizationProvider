@@ -1,4 +1,4 @@
-## What is LocalzationProvider project?
+## What is LocalizationProvider project?
 
 LocalizationProvider project is an attempt to improve EPiServer built-in localization provider originally based on collection of Xml files.
 
