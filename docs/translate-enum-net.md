@@ -76,12 +76,15 @@ Sometimes (usage for me was EPiServer visitor groups) you just need to control n
 public enum ThisIsMyStatus
 {
     [ResourceKey("nothing")]
+    [Display(Name = "No status")]
     None,
 
     [ResourceKey("something")]
+    [Display(Name = "Some status")]
     Some,
 
     [ResourceKey("anything")]
+    [Display(Name = "Any status")]
     Any
 }
 ```
@@ -133,12 +136,16 @@ namespace My.Project.Namespace
     public enum UsernameValueCondition
     {
         [ResourceKey("matches")]
+        [Display(Name = "Username matches")]
         Matches,
         [ResourceKey("startswith")]
+        [Display(Name = "Username starts with")]
         StartsWith,
         [ResourceKey("endswith")]
+        [Display(Name = "Username ends with")]
         EndsWith,
         [ResourceKey("contains")]
+        [Display(Name = "Username contains")]
         Contains
     }
 }
